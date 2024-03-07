@@ -5,7 +5,7 @@ let sum = (num1, num2) => {
 };
 
 let values = (a, b, add) => {
-  return add(a,b)
+  return add(a, b);
 };
 
 console.log(values(12, 34, sum));

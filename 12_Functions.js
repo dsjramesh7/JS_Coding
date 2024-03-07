@@ -18,4 +18,10 @@ let arrow = () => console.log("yowai mo!!!");
 
 arrow();
 
+//IIFE
+(function () {
+  console.log("jaldi kar panvel jaana hai!!!");
+})();
+
+
 //return
