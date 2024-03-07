@@ -1,5 +1,5 @@
 let passCode = "switzerland@";
-let condition = fasle;
+let condition = false;
 // && both must be true
 if (passCode.length > 9 && passCode.includes("@")) {
   console.log("passcode is strong strawhat!!!");
