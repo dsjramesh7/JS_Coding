@@ -24,3 +24,9 @@ console.log(
 //add style too
 linkEle.style.color = "red";
 linkEle.style.backgroundColor = "black";
+
+// we have add remove replace class
+linkEle.classList.add("moyemoye");
+console.log(linkEle);
+
+//accessing parent,children, sibilings, previoussibiling, nextsibiling
