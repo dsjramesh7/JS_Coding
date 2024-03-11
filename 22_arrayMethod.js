@@ -14,3 +14,15 @@ console.log(newArray);
 // spread operator
 let spreadArray = [...num, ...character];
 console.log(spreadArray);
+
+//join
+console.log(character.join(","));
+
+//slice
+let slicedthing = num.slice(1, 4);
+console.log(slicedthing);
+
+//splice method
+let Name = ["rey", "mey", "day", "wey"];
+Name.splice(2, 1, "yo");
+console.log(Name);
